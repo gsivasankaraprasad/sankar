@@ -10,7 +10,7 @@ pipeline{
 }
 }
      stage('build') {
-        stpes {
+        steps {
         echo "maven build is started"
          echo "mvn clean install"
 
