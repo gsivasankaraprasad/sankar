@@ -9,7 +9,7 @@ pipeline{
          sh "ls -lrt"
 }
 }
-     stages ('mavening') {
+     stage('build') {
         stpes {
         echo "maven build is started"
          echo "mvn clean install"
