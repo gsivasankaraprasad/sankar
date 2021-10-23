@@ -1,18 +1,12 @@
-pipeline {
-  agent any
-  stages {
-   stage ('build') {
+pipeline{
+ agent any
+   stages {
+    stage ('gitclone') {
      steps {
-       echo " build is started"
-       sh "mkdir file11"
-      }
-}
 
-     stage ("deploy") {
-       steps {
-      echo "deployment is started"
-       sh "touch file123"
-
+         echo "gitclone is started"
+         sh "git clone https://github.com/gsivasankaraprasad/sankar.git"
+         sh "ls -lrt"
 }
 }
 }
