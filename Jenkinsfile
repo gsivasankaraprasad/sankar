@@ -3,7 +3,8 @@ pipeline{
    stages {
     stage ('gitclone') {
      steps {
-
+         sh "ls -lrt"
+         sh "rm -rf sankar"
          echo "gitclone is started"
          sh "git clone https://github.com/gsivasankaraprasad/sankar.git"
          sh "ls -lrt"
