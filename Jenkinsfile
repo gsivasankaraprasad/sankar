@@ -10,7 +10,7 @@ pipeline{
          sh "ls -lrt"
 }
 }
-     stage('build') {
+     stage('maven') {
         steps {
         echo "maven build is started"
          echo "mvn clean install"
