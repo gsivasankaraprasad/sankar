@@ -14,7 +14,7 @@ pipeline{
         steps {
         echo "maven build is started"
          echo "mvn clean installed on your machine"
-         echo "webhook has to trigger this 111 build"
+         echo "webhook has to trigger this 222 build"
 }
 }
    }
