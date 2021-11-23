@@ -13,7 +13,7 @@ pipeline{
      stage('maven') {
         steps {
         echo "maven build is started"
-         sh "mvn clean install"
+         echo "mvn clean installed on your machine"
 
 }
 }
