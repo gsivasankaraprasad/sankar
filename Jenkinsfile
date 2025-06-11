@@ -19,3 +19,6 @@ pipeline{
 }
    }
 }
+
+
+jenkins file is edited on master 1248  11062025
